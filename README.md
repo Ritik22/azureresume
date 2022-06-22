@@ -1,3 +1,14 @@
+using azure cloud service i have prepare a static resume page  which is hosted on blob storage ,there is on visitor counter which counter how many time web page is being visited for that i  have used azure function which interact with cosmos db account where the counter info is stord 
+
+
+
+
+
+
+
+
+
+
 
 
 ## Prerequisites
@@ -13,7 +24,7 @@
   - [C# Extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
   - [Azure Storage Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurestorage)
 
-
+    reference link  https://www.youtube.com/watch?v=ieYrBWmkfno (some changes has done )
 ## Front-end resources
 
 The front-end is a static site with HTML, CSS, and JavaScript. It's static and has a visitor counter. The visitor counter data fetched via an API call to an Azure Function.
@@ -27,6 +38,11 @@ The front-end is a static site with HTML, CSS, and JavaScript. It's static and h
 The back-end is an [HTTP triggered](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook-trigger?tabs=csharp) Azure Functions with Cosmos DB input and output binding. The Function is triggered, it retrieves the CosmosDB item, add +1 to it, and saves it and returns its value to the caller.
 
 - [Prerequisites for developing functions with visual code locally.](https://docs.microsoft.com/en-us/azure/azure-functions/create-first-function-vs-code-csharp)
+
+
+
+
+
 - [Create a Cosmos DB account via command line](https://azure.microsoft.com/en-us/resources/templates/101-cosmosdb-free/) or [from the portal](https://docs.microsoft.com/en-us/azure/cosmos-db/create-cosmosdb-resources-portal).
 - [Create an HTTP triggered Azure Function in Visual Studio Code.](https://docs.microsoft.com/en-us/azure/azure-functions/functions-develop-vs-code?tabs=csharp)
 - [Azure Functions Cosmos DB bindings](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-cosmosdb-v2)
