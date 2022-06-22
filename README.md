@@ -1,5 +1,5 @@
-using azure cloud service i have prepare a static resume page  which is hosted on blob storage ,there is on visitor counter which counter how many time web page is being visited for that i  have used azure function which interact with cosmos db account where the counter info is stord 
-
+**using azure cloud service i have prepare a static resume page  which is hosted on blob storage ,there is on visitor counter which counter how many time web page is being visited for that i  have used azure function which interact with cosmos db account where the counter info is stord 
+**
 
 
 
