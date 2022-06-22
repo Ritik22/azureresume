@@ -1,4 +1,4 @@
-# cgc-azure-resume-starter
+
 
 ## Prerequisites
 
@@ -12,7 +12,7 @@
   - [Azure Functions Extensions](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions)
   - [C# Extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
   - [Azure Storage Extension](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurestorage)
-- [Full solution](https://github.com/ACloudGuru-Resources/acg-project-azure-resume)
+
 
 ## Front-end resources
 
@@ -34,16 +34,5 @@ The back-end is an [HTTP triggered](https://docs.microsoft.com/en-us/azure/azure
 - [Write to a Cosmos DB item with Functions binding.](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-cosmosdb-v2-output?tabs=csharp)
 - You'll have to [enable CORS with Azure Functions](https://github.com/Azure/azure-functions-host/issues/1012) locally and once it's [deployed to Azure](https://docs.microsoft.com/en-us/azure/azure-functions/functions-how-to-use-azure-function-app-settings?tabs=portal#cors) for you website to be able to call it.
 
-## Testing Resources
 
-- [Testing is important.](https://dev.to/flippedcoding/its-important-to-test-your-code-3lid)
-- [Getting Started with xUnit.net.](https://xunit.net/docs/getting-started/netcore/cmdline)
-- [How to setup Xunit with Azure Functions.](https://madebygps.com/how-to-use-xunit-with-azure-functions/)
-- [Testing Azure Functions.](https://docs.microsoft.com/en-us/azure/azure-functions/functions-test-a-function)
-  
-## CI/CD Resources
-
-- This is how you can deploy a blob storage static site with [GitHub actions.](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blobs-static-site-github-actions) Used in frontend.main.yml.
-- This is how you can deploy an [Azure Function to Azure with GitHub Actions.](https://github.com/madebygps/cgc-azure-resume/blob/main) Used in backend.main.yml
-- [Implement .NET testing in GitHub Actions.](https://docs.github.com/en/actions/guides/building-and-testing-net)
 
